@@ -11,7 +11,7 @@ const ResetPassword = () => {
   const handleResetPasswordRequest = async () => {
     try {
       const response = await fetch(
-        "http://localhost:3001/api/reset-password/request",
+        "https://password-reset-application.onrender.com/api/reset-password/request",
         {
           method: "POST",
           headers: {
@@ -30,7 +30,7 @@ const ResetPassword = () => {
   const handleResetPasswordVerify = async () => {
     try {
       const response = await fetch(
-        "http://localhost:3001/api/reset-password/verify",
+        "https://password-reset-application.onrender.com/api/reset-password/verify",
         {
           method: "POST",
           headers: {
