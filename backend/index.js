@@ -86,6 +86,5 @@ app.post("/api/reset-password/verify", async (req, res) => {
 });
 
 app.listen(port, () => {
-  res.send("Password Reset Application");
   console.log(`Server is running on port ${port}`);
 });
